@@ -21,7 +21,7 @@ This labs purpose was to create a monitored honeypot in order to gain hands on e
 - Microsoft Sentinel
 
 ## Steps
-To begin I needed to create an free Azure account.
+**To begin I needed to create an free Azure account.**
 
 **Once this was completed, I first began by creating a Resource group which would hold all my virtual infrastructure.**
 <img width="1229" height="37" alt="image" src="https://github.com/user-attachments/assets/08b938be-a30d-4602-93f0-0dce55af7511" /> <br/><br/>
