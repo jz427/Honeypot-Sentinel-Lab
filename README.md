@@ -67,7 +67,7 @@ json ->https://drive.google.com/file/d/1ErlVEK5cQjpGyOcu4T02xYy7F31dWuir/view
 **As you can see below most of the attacks were from the UK and Australia.**
 <img width="1088" height="357" alt="image" src="https://github.com/user-attachments/assets/6dab7c51-b3f9-4cfa-b8db-b7956fee0240" /> <br/><br/>
 
-**I enjoyed this lab as it gave me hands on expereince with builidng in Azure and setting up Sentinel and ingesting Logs**
+**I enjoyed this lab as it gave me hands on expereince with builidng in Azure and setting up Sentinel and ingesting logs**
 
 
 
