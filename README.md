@@ -71,12 +71,13 @@ This labs purpose was to create a monitored honeypot in order to gain hands on e
 csv -> https://drive.google.com/file/d/13EfjM_4BohrmaxqXZLB5VUBIz2sv9Siz/view?pli=1
 <img width="1536" height="825" alt="image" src="https://github.com/user-attachments/assets/6ac4eb1a-ddd8-4e7b-af88-05c72e120fda" /> <br/><br/>
 
-**The last step was to create a visual aid, one that you may see in a SIEM. I created an attack map to show the locations of the attackers. I copied a public json file and uploaded this into a Microsoft Defender workbook.**
-json ->https://drive.google.com/file/d/1ErlVEK5cQjpGyOcu4T02xYy7F31dWuir/view
-**As you can see below most of the attacks were from the UK and Australia.**
-<img width="1088" height="357" alt="image" src="https://github.com/user-attachments/assets/6dab7c51-b3f9-4cfa-b8db-b7956fee0240" /> <br/><br/>
 
-**I enjoyed this lab as it gave me hands on expereince with builidng in Azure and setting up Sentinel and ingesting logs**
+## Step 6. Build an Attack Map
+
+- Imported a public JSON visualization template into a Microsoft Defender Workbook<br/>
+- Created a real‑time attack map showing global intrusion attempts<br/>
+json ->https://drive.google.com/file/d/1ErlVEK5cQjpGyOcu4T02xYy7F31dWuir/view <br/>
+<img width="1088" height="357" alt="image" src="https://github.com/user-attachments/assets/6dab7c51-b3f9-4cfa-b8db-b7956fee0240" /> <br/><br/>
 
 
 
