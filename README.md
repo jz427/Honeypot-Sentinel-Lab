@@ -33,7 +33,7 @@ This labs purpose was to create a monitored honeypot in order to gain hands on e
 ## Step 2. Deploy the Honeypot VM
 
 - Attempted Windows 11 but switched to Windows 10 due to zone restrictions<br/>
-- Placed the VM inside the VNet and Resource Group<br/>
+- Placed the VM inside the virtual network and Resource Group<br/>
 - Modified Network Security Group inbound rules to allow all traffic<br/>
 - Disabled Windows Defender Firewall (Domain, Private, Public) to fully expose the VM<br/>
 
@@ -42,22 +42,19 @@ This labs purpose was to create a monitored honeypot in order to gain hands on e
 <img width="548" height="597" alt="image" src="https://github.com/user-attachments/assets/19b0a7d4-b8d2-4ade-bfc5-1319fc5a5b3a" /> <br/><br/>
 
 
+## Step 3. Configure Logging
 
+- Created a Log Analytics Workspace<br/>
+- Deployed a Microsoft Sentinel instance connected to the workspace<br/>
+- Added the Windows Security Events connector<br/>
+- Created a Data Collection Rule to forward VM logs to Sentinel<br/>
 
-
-
-**I next created a log analystics workspace to hold all the logs from my Azure VM.**
 <img width="1209" height="397" alt="image" src="https://github.com/user-attachments/assets/985ab053-87b0-4c9d-b283-bd656cbc238d" /> <br/><br/>
-
-**Now to create the Sentinel instace which the log analytic workspace will sit in.**
 <img width="1016" height="357" alt="image" src="https://github.com/user-attachments/assets/e92f1761-dc01-472e-97e3-07435c8dc31a" /> <br/><br/>
-
-
-**The next step is to link the log analytic workspace and the VM. In sentinel I add the Windows security events connector**
 <img width="1044" height="401" alt="image" src="https://github.com/user-attachments/assets/46d9c481-a431-4c08-be0b-6e68a0c48d71" /> <br/><br/>
-
-**After this I create a data collection rule which will forward the VM logs to the log analystic workspace and the Sentinel instance.**
 <img width="1408" height="344" alt="image" src="https://github.com/user-attachments/assets/4575dafd-bd95-4ab8-937f-4ca9f52ba4c2" /> <br/><br/>
+
+
 
 **To then confirm the machine is opened and being scanned, I checked the log function in the log analytical workspace. I used the KQP query of "SecurityEvent" and as you can see below attackers are using different account names to try and get in.**
 <img width="1812" height="851" alt="image" src="https://github.com/user-attachments/assets/8fb79b2d-710d-4fd5-9c0c-3b47aa4a412a" /> <br/><br/>
