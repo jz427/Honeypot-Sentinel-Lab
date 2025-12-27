@@ -4,15 +4,14 @@ This is a hands‑on cloud security project where I deployed a vulnerable Window
 
 
 ## Objective
-
-
 This labs purpose was to create a monitored honeypot in order to gain hands on experience with building structures in Azure and ingesting and analyzing logs with Sentinel
+
 ### Skills Learned
 
 - Designing basic Azure infrastructure (resource groups, VNets, VMs)<br/>
 - Creating and linking Log Analytics Workspaces <br/>
 - Enriching logs with geolocation data (IP ranges, country, latitude/longitude) <br/>
-- Visualizing attacker activity using Sentinel Workbooks <br/>
+- Visualizing attacker activity using Sentinel Workbooks
 
 ### Tools Used
 
