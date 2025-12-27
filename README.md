@@ -21,15 +21,12 @@ This labs purpose was to create a monitored honeypot in order to gain hands on e
 - Microsoft Azure to build the necessary infrastructure
 - Microsoft Sentinel
 
-## Steps 
-# Step 1
-**To begin I needed to create an free Azure account.**
-
-**Once this was completed, I first began by creating a Resource group which would hold all my virtual infrastructure.**
+## Lab Build Steps 
+## Step 1. Create Azure Enviornment
+-Create free Azure account
+-Create resource group to hold infrastructure
+-Build Virtual Network 
 <img width="1229" height="37" alt="image" src="https://github.com/user-attachments/assets/08b938be-a30d-4602-93f0-0dce55af7511" /> <br/><br/>
-
-
-**The next step was to create a virtual network. I left all the settings default.**
 <img width="1440" height="53" alt="image" src="https://github.com/user-attachments/assets/d0498bee-bb04-4255-addc-8394b79fce5d" /> <br/><br/>
 
 
