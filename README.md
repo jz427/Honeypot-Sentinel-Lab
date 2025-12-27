@@ -56,12 +56,19 @@ This labs purpose was to create a monitored honeypot in order to gain hands on e
 
 
 
-**To then confirm the machine is opened and being scanned, I checked the log function in the log analytical workspace. I used the KQP query of "SecurityEvent" and as you can see below attackers are using different account names to try and get in.**
+## Step 4. Validate Attacker Activity
+- Run "SecurityEvent" to confirm brute force attempts on the exposed VM <br/>
 <img width="1812" height="851" alt="image" src="https://github.com/user-attachments/assets/8fb79b2d-710d-4fd5-9c0c-3b47aa4a412a" /> <br/><br/>
 
-**I then used a public csv of common attacker locations including ip ranges, country name, latitutde and longitude etc, and uploaded it to enrich the logs and aid me in showing the attackers locations in an easier way.**
+
+
+## Step 5. Enrich Logs with Geolocation Data
+
+- Imported a public CSV containing attacker IP ranges, countries, and coordinates<br/>
+- Added it to Sentinel as a Watchlist<br/>
+- Logs now displayed attacker city and country information<br/>
+
 csv -> https://drive.google.com/file/d/13EfjM_4BohrmaxqXZLB5VUBIz2sv9Siz/view?pli=1
-**I uploaded the csv into the Sentinel instace and added it under watchlist. As you can see below the logs now show the city and country.**
 <img width="1536" height="825" alt="image" src="https://github.com/user-attachments/assets/6ac4eb1a-ddd8-4e7b-af88-05c72e120fda" /> <br/><br/>
 
 **The last step was to create a visual aid, one that you may see in a SIEM. I created an attack map to show the locations of the attackers. I copied a public json file and uploaded this into a Microsoft Defender workbook.**
