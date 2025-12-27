@@ -10,10 +10,10 @@ This labs purpose was to create a monitored honeypot in order to gain hands on e
 ### Skills Learned
 
 
--Designing basic Azure infrastructure (resource groups, VNets, VMs)
--Creating and linking Log Analytics Workspaces
--Enriching logs with geolocation data (IP ranges, country, latitude/longitude)
--Visualizing attacker activity using Sentinel Workbooks
+- Designing basic Azure infrastructure (resource groups, VNets, VMs)<br/>
+- Creating and linking Log Analytics Workspaces <br/>
+- Enriching logs with geolocation data (IP ranges, country, latitude/longitude) <br/>
+- Visualizing attacker activity using Sentinel Workbooks <br/>
 
 ### Tools Used
 
