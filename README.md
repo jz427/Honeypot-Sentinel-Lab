@@ -10,11 +10,10 @@ This labs purpose was to create a monitored honeypot in order to gain hands on e
 ### Skills Learned
 
 
-- Basic Azure architecture building
-- Building and linking a log repository 
-- KQL queries
-- Adding Location data to enrich logs and see attacker locations
-- 
+-Designing basic Azure infrastructure (resource groups, VNets, VMs)
+-Creating and linking Log Analytics Workspaces
+-Enriching logs with geolocation data (IP ranges, country, latitude/longitude)
+-Visualizing attacker activity using Sentinel Workbooks
 
 ### Tools Used
 
@@ -22,7 +21,8 @@ This labs purpose was to create a monitored honeypot in order to gain hands on e
 - Microsoft Azure to build the necessary infrastructure
 - Microsoft Sentinel
 
-## Steps
+## Steps 
+# Step 1
 **To begin I needed to create an free Azure account.**
 
 **Once this was completed, I first began by creating a Resource group which would hold all my virtual infrastructure.**
