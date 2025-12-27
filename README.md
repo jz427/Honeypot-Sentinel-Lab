@@ -9,14 +9,12 @@ This is a hands‑on cloud security project where I deployed a vulnerable Window
 This labs purpose was to create a monitored honeypot in order to gain hands on experience with building structures in Azure and ingesting and analyzing logs with Sentinel
 ### Skills Learned
 
-
 - Designing basic Azure infrastructure (resource groups, VNets, VMs)<br/>
 - Creating and linking Log Analytics Workspaces <br/>
 - Enriching logs with geolocation data (IP ranges, country, latitude/longitude) <br/>
 - Visualizing attacker activity using Sentinel Workbooks <br/>
 
 ### Tools Used
-
 
 - Microsoft Azure to build the necessary infrastructure
 - Microsoft Sentinel
@@ -26,19 +24,27 @@ This labs purpose was to create a monitored honeypot in order to gain hands on e
 - Create free Azure account <br/>
 - Create resource group to hold infrastructure<br/>
 - Build Virtual Network<br/>
+
 <img width="1229" height="37" alt="image" src="https://github.com/user-attachments/assets/08b938be-a30d-4602-93f0-0dce55af7511" />
 <img width="1440" height="53" alt="image" src="https://github.com/user-attachments/assets/d0498bee-bb04-4255-addc-8394b79fce5d" /> <br/><br/>
 
 
-**I then began setting up the virtual machine. I had to do some troubleshooting as Windows 11 wouldnt work due to zone restrictions so I went with Windows 10.
-I placed the virtual machine inside the virtual network which are both in the resource group I created at the start.**
+
+## Step 2. Deploy the Honeypot VM
+
+- Attempted Windows 11 but switched to Windows 10 due to zone restrictions<br/>
+- Placed the VM inside the VNet and Resource Group<br/>
+- Modified Network Security Group inbound rules to allow all traffic<br/>
+- Disabled Windows Defender Firewall (Domain, Private, Public) to fully expose the VM<br/>
+
 <img width="804" height="49" alt="image" src="https://github.com/user-attachments/assets/2bce8acb-e2bd-4ab9-b4d7-105891eb1687" /> <br/><br/>
-
-**I then edited the inbound rules on the network security group to enable all traffic to all ports which would allow attackers to scan and attempt to gain access in turn giving me logs to check.**
 <img width="1289" height="419" alt="image" src="https://github.com/user-attachments/assets/2ad20a97-173f-4de1-84fc-e34fcc47fa43" /> <br/><br/>
-
-**After doing this I needed to change a few firewall settings in the virtual machine itself. I opened up Windows Defender Firewall and turned off the firewall for the domain profile, private profile, and public profile. After doing this the VM is opened to attackers.**
 <img width="548" height="597" alt="image" src="https://github.com/user-attachments/assets/19b0a7d4-b8d2-4ade-bfc5-1319fc5a5b3a" /> <br/><br/>
+
+
+
+
+
 
 **I next created a log analystics workspace to hold all the logs from my Azure VM.**
 <img width="1209" height="397" alt="image" src="https://github.com/user-attachments/assets/985ab053-87b0-4c9d-b283-bd656cbc238d" /> <br/><br/>
