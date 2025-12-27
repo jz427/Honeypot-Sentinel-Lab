@@ -23,9 +23,9 @@ This labs purpose was to create a monitored honeypot in order to gain hands on e
 
 ## Lab Build Steps 
 ## Step 1. Create Azure Enviornment
--Create free Azure account
--Create resource group to hold infrastructure
--Build Virtual Network 
+-Create free Azure account <br/>
+-Create resource group to hold infrastructure<br/>
+-Build Virtual Network<br/>
 <img width="1229" height="37" alt="image" src="https://github.com/user-attachments/assets/08b938be-a30d-4602-93f0-0dce55af7511" /> <br/><br/>
 <img width="1440" height="53" alt="image" src="https://github.com/user-attachments/assets/d0498bee-bb04-4255-addc-8394b79fce5d" /> <br/><br/>
 
