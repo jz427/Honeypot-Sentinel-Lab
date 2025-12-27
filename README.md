@@ -79,6 +79,16 @@ csv -> https://drive.google.com/file/d/13EfjM_4BohrmaxqXZLB5VUBIz2sv9Siz/view?pl
 json ->https://drive.google.com/file/d/1ErlVEK5cQjpGyOcu4T02xYy7F31dWuir/view <br/>
 <img width="1088" height="357" alt="image" src="https://github.com/user-attachments/assets/6dab7c51-b3f9-4cfa-b8db-b7956fee0240" /> <br/><br/>
 
+## Results 
 
+- The honeypot immediately attracted global brute‑force attempts<br/>
+- Sentinel successfully ingested and enriched logs<br/>
+- The attack map provided a clear visual of attacker distribution<br/>
+
+
+
+## Reflection
+
+This lab gave me valuable hands‑on experience with Azure infrastructure, Sentinel configuration and log ingestion.  It strengthened my understanding of how attackers behave when exposed systems are placed online and how SIEM tools help defenders detect and analyze malicious activity
 
 
