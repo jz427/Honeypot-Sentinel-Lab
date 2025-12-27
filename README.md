@@ -1,5 +1,7 @@
 # Honeypot-Sentinel-Lab
 
+A hands‑on cloud security project where I deployed a vulnerable Windows VM in Azure, exposed it to the internet, ingested logs into Microsoft Sentinel, enriched attacker data, and built a live attack map to visualize global intrusion attempts.
+
 
 ## Objective
 
