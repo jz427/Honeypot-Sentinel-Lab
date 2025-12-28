@@ -56,7 +56,7 @@ This lab's purpose was to create a monitored honeypot in order to gain hands on 
 
 
 ## Step 4. Validate Attacker Activity
-- Run "SecurityEvent" to confirm brute force attempts on the exposed VM <br/>
+- Run "SecurityEvent" to confirm brute force attempts on the exposed VM <br/><br/>
 <img width="1812" height="851" alt="image" src="https://github.com/user-attachments/assets/8fb79b2d-710d-4fd5-9c0c-3b47aa4a412a" /> <br/><br/>
 
 
