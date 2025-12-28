@@ -88,6 +88,6 @@ json ->https://drive.google.com/file/d/1ErlVEK5cQjpGyOcu4T02xYy7F31dWuir/view <b
 
 ## Reflection
 
-This lab gave me valuable hands‑on experience with Azure infrastructure, Sentinel configuration and log ingestion.  It strengthened my understanding of how attackers behave when exposed systems are placed online and how SIEM tools help defenders detect and analyze malicious activity
+This lab gave me valuable hands‑on experience with Azure infrastructure, Sentinel configuration and log ingestion.  It strengthened my understanding of how attackers behave when exposed systems are placed online and how SIEM tools help defenders detect and analyze malicious activity.
 
 
