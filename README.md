@@ -4,7 +4,7 @@ This is a hands‑on cloud security project where I deployed a vulnerable Window
 
 
 ## Objective
-This labs purpose was to create a monitored honeypot in order to gain hands on experience with building structures in Azure and ingesting and analyzing logs with Sentinel
+This lab's purpose was to create a monitored honeypot in order to gain hands on experience with building structures in Azure and ingesting and analyzing logs with Sentinel
 
 ### Skills Learned
 
